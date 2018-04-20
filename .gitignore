@@ -10,3 +10,4 @@ package-lock.json
 /Box2D/Testbed/Testbed.js
 /Box2D/Testbed/Framework/**/*.js
 /Box2D/Testbed/Tests/**/*.js
+*.d.ts
