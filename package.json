@@ -6,19 +6,19 @@
   "types": "./Box2D/Box2D/Box2D.d.ts",
   "scripts": {
     "tslint": "tslint --project Box2D/Box2D",
-    "prepublish": "tsc --project Box2D/Box2D",
+    "build": "tsc --project Box2D/Box2D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flyover/box2d.ts.git"
+    "url": "git+https://github.com/gamestdio/box2d.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/flyover/box2d.ts/issues"
+    "url": "https://github.com/gamestdio/box2d/issues"
   },
-  "homepage": "https://github.com/flyover/box2d.ts#readme",
+  "homepage": "https://github.com/gamestdio/box2d#readme",
   "dependencies": {
     "typescript": "^2.8.3"
   },
