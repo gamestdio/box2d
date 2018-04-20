@@ -70,11 +70,11 @@ function std_sort(array: any[], first: number = 0, len: number = array.length - 
   }
 
   return array;
-};
+}
 
 function std_stable_sort(array: any[], first: number = 0, len: number = array.length - first, cmp: (a: any, b: any) => boolean = default_compare): any[] {
   return std_sort(array, first, len, cmp);
-};
+}
 
 function std_remove_if(array: any[], predicate: (value: any) => boolean, length: number = array.length) {
   let l = 0;
@@ -95,7 +95,7 @@ function std_remove_if(array: any[], predicate: (value: any) => boolean, length:
   }
 
   return l;
-};
+}
 
 function std_lower_bound(array: any[], first: number, last: number, val: any, cmp: (a: any, b: any) => boolean = default_compare): number {
   let count = last - first;
@@ -110,7 +110,7 @@ function std_lower_bound(array: any[], first: number, last: number, val: any, cm
       count = step;
   }
   return first;
-};
+}
 
 function std_upper_bound(array: any[], first: number, last: number, val: any, cmp: (a: any, b: any) => boolean = default_compare): number {
   let count = last - first;
@@ -125,7 +125,7 @@ function std_upper_bound(array: any[], first: number, last: number, val: any, cm
       count = step;
   }
   return first;
-};
+}
 
 function std_rotate(array: any[], first: number, n_first: number, last: number): void {
   let next = n_first;
