@@ -1,6 +1,6 @@
 {
   "name": "@gamestdio/box2d",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "./Box2D/Box2D/Box2D.js",
   "types": "./Box2D/Box2D/Box2D.d.ts",
